@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+    text-decoration: underline;
+}
+
+.already:hover {
+    text-decoration: none;
+}
+
+button:hover {
+    color: #ffeeee;
+    @apply bg-green-600
+}
+
+p {
+    color: #9a8080;
+}
